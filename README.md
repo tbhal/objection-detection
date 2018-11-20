@@ -8,21 +8,20 @@ Type git clone https://github.com/tensorflow/models.git in the shell it will clo
 
 - First we create csv file for the images and xml file by using the xml_to_cs. First switch to that directory then type
 
-python xml_to_csv.py
+'python xml_to_csv.py'
 
-- Then we have to create trf records
+- Then we have to create trf records for that run 'python generate_trfrecord.py'
 
-python generate_trfrecord.py
 
 - Then decide the model type which we have to use for training I used ssd_mobilnet_v1_coco_2017_11_17
 
--Then we created training folder with object-detection.pbtx and config file
+- Then we created training folder with object-detection.pbtx and config file
 
--The after that we have to paste all these folder in model/research/object_detection folder.
+- The after that we have to paste all these folder in **model/research/object_detection folder**.
 
 - Then swithc to the legacy directory and run
 
-python train.py --logtostderr --train_dir=training/ --pipeline_config_path=training/ssd_mobilenet_v1_pets.config
+'python train.py --logtostderr --train_dir=training/ --pipeline_config_path=training/ssd_mobilenet_v1_pets.config'
 
 -The training process graph can be seen on Tensorboard using command in shell
 
