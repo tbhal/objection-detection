@@ -2,7 +2,7 @@
 Object detetction on custom dataset using Tensorflow object detection API
 
 ## Installation
-Type git clone https://github.com/tensorflow/models.git in the shell it will clone the TensorFlow API or it can be downloaded from [here](https://github.com/tensorflow/models)
+Type `git clone https://github.com/tensorflow/models.git` in the shell it will clone the TensorFlow API or it can be downloaded from [here](https://github.com/tensorflow/models)
 
 ## Steps to be followed
 
