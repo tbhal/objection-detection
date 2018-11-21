@@ -55,7 +55,7 @@ PATH_TO_LABELS = os.path.join('training', 'object-detection.pbtxt')
 
 NUM_CLASSES = 1
 ```
-- Delete he code from download image section or do not reun it.
+- Delete the code from download image section or do not run it.
 
 - And in Detection Section, change the TEST_IMAGE_PATHS var to:
 ```python
